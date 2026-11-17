@@ -3,7 +3,7 @@ name = "SigmaOS-apt-transport-tor"
 tier = 2
 stability = "scaffold"
 language = "rust"
-description = "apt-transport-tor component"
+description = "No GitHub description is set; component scope remains unclassified."
 upstream = []
 
 [contract]
