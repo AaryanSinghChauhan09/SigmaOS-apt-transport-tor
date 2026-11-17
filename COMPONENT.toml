@@ -1,9 +1,9 @@
 [component]
 name = "SigmaOS-apt-transport-tor"
 tier = 2
-stability = "scaffold"
+stability = "beta"
 language = "rust"
-description = "No GitHub description is set; component scope remains unclassified."
+description = "Tor/onion APT transport: .onion host detection, v3 onion validation, tor://+https:// URI parse, proxy-required descriptor."
 upstream = []
 
 [contract]
@@ -11,6 +11,6 @@ provides = ["component"]
 depends_on = []
 
 [maturity]
-status = "Scaffold"
+status = "Implemented"
 test_evidence = "Compiles and passes AAA unit tests"
 next_milestone = "Hardware and runtime integration"
